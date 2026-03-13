@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-            // Biblioteca padrão
 #include "contatos.h"
 
 int main(){
@@ -9,7 +8,7 @@ int main(){
     int opcao;  
 
     do {
-        // Menu principal
+        
         printf("\n===== GERENCIADOR DE CONTATOS =====\n");
         printf("1) Cadastrar\n");
         printf("2) Listar\n");
@@ -20,8 +19,8 @@ int main(){
         printf("7) Sair\n");
         printf("Escolha: ");
 
-        scanf("%d", &opcao);  // Lê opção
-        getchar();            // Limpa buffer
+        scanf("%d", &opcao);  
+        getchar();            
 
         switch(opcao) {
 
@@ -76,8 +75,8 @@ int main(){
                 printf("Opcao invalida!\n");
         }
 
-    } while(opcao != 7); // Repete até sair
+    } while(opcao != 7); 
 
-    return 0; // Finaliza programa
+    return 0;
 
 }

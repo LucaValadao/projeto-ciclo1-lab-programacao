@@ -1,4 +1,4 @@
-#ifndef CONTATOS_H               // Evita inclusão dupla do arquivo
+#ifndef CONTATOS_H              
 #define CONTATOS_H
 
 #define MAX_CONTATOS 100
@@ -6,7 +6,7 @@
 #define TAM_TELEFONE 20
 #define TAM_EMAIL 100
 
-// Estrutura 
+ 
 
 typedef struct Contato{
     char nome[TAM_NOME];
@@ -16,7 +16,7 @@ typedef struct Contato{
 
 } Contato;
 
-void cadastrarContato(Contato contatos[], int *total); //Um array (vetor) do tipo Contato
+void cadastrarContato(Contato contatos[], int *total); 
 void listarContatos(Contato contatos[], int total);
 int buscarContato(Contato contatos[], int total, char nome[]);
 void editarContato(Contato contatos[], int total);

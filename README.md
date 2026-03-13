@@ -1,11 +1,22 @@
 # Sistema de Gerenciamento de Contatos em C
 
-Integrantes
-Luca Constâncio C. Valadão
-Gabriel Oliveira Freitas 
-Nicolas Santana Lins
-Carlos Augusto Rodrigues
-Artur Rodrigues
+# 👨‍💻 Integrantes e Contribuições
+
+A seguir estão descritas as responsabilidades e contribuições de cada integrante do grupo durante o desenvolvimento do projeto **Sistema de Gerenciamento de Contatos em C**.
+
+| Integrante | Contribuição no Projeto |
+|-------------|-------------------------|
+| **Luca Constâncio C. Valadão** | Responsável pela **estruturação principal do sistema e organização lógica do código**. Desenvolveu parte significativa da implementação das funcionalidades do programa, incluindo a estrutura de dados utilizada para armazenar os contatos e a integração entre as diferentes funções do sistema. Também atuou na definição da arquitetura do projeto, separando corretamente os arquivos de implementação (`.c`) e cabeçalho (`.h`), garantindo uma organização modular do código. |
+| **Gabriel Oliveira Freitas** | Contribuiu diretamente na **codificação das funcionalidades do sistema**, auxiliando na implementação das operações relacionadas ao gerenciamento de contatos, como cadastro, edição e manipulação das informações armazenadas no vetor de contatos. Também colaborou na revisão da lógica de algumas funções para garantir que o sistema operasse corretamente durante a execução. |
+| **Nicolas Santana Lins** | Atuou na **organização e elaboração da documentação do projeto**, sendo responsável pela estruturação e escrita do **README.md**. Além disso, realizou **testes de funcionamento do sistema**, verificando se as funcionalidades implementadas estavam operando corretamente e identificando possíveis melhorias ou ajustes no código. Também participou da revisão geral do projeto para melhorar a clareza e organização das informações apresentadas. |
+| **Carlos Augusto Rodrigues** | Contribuiu na **organização e revisão da documentação do projeto**, colaborando na construção do README e na melhoria da apresentação das informações. Também participou da **realização de testes do sistema**, auxiliando na validação das funcionalidades implementadas e na identificação de possíveis inconsistências ou melhorias necessárias no funcionamento do programa. |
+| **Artur Rodrigues** | Responsável pela **organização da apresentação do projeto**, incluindo a preparação dos **slides utilizados na apresentação**. Realizou o estudo do funcionamento do código desenvolvido pelo grupo para compreender a lógica do sistema e explicar corretamente suas funcionalidades durante a apresentação do trabalho. Também contribuiu na preparação do material visual utilizado para demonstrar o funcionamento do programa. |
+
+---
+
+### 📌 Organização do Trabalho em Equipe
+
+O desenvolvimento do projeto foi realizado de forma colaborativa, com divisão de responsabilidades entre **desenvolvimento do código, documentação, testes e apresentação**. Essa divisão permitiu que cada integrante contribuísse em uma etapa específica do projeto, garantindo melhor organização e qualidade no resultado final.
 
 ## Descrição
 
@@ -98,3 +109,6 @@ gcc main.c contatos.c -o programa.exe
 
 ### Execução
 .\programa.exe
+
+
+
